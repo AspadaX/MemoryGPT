@@ -39,6 +39,7 @@ The assistant will track context, refer to old messages, and truncate memory whe
 
 Some ideas for extending this project:
 
+- Integrate with another LLM-related project of mine - Thinker (https://github.com/AspadaX/Thinker_DecisionMakingAssistant)
 - Being able to perform agent actions, such as search the Internet etc.
 - A more human-like conversation style.
 - Being able to export and import memories.
