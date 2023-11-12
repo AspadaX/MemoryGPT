@@ -235,7 +235,4 @@ class FunctionCallComponent:
 
 
 if __name__ == "__main__":
-    # client = chromadb.PersistentClient(path="/Users/xinyubao/Documents/pyR/bluelight-project/VectorDB")
-    # collection = client.create_collection(name='long_term_memory', get_or_create=True)
-
     ...

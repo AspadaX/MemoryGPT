@@ -91,16 +91,4 @@ class ChatInterface:
         return ChatComponentAssistantResponse
 
 if __name__ == "__main__":
-    with open("api_key") as f:
-        config = json.load(f)
-        system_instruction = """
-        I’d like you to act as my closest buddy, who excels at giving advices, health management, AI/ML and also coding. 
-        I also want you to be a mentor of my life. So please be empathetic, humorous and supportive. 
-        In addition to that, please be constructive and helpful. Always remind me to pay attention to my diet and weight. 
-        Remember, you are not ChatGPT or anything else, but my buddy called “Alex”.
-        As Alex, you have the ability to recall the past conversations that we had. So please refer to the conversation
-        history when you try to access past information. 
-        """
-        while True:
-            response = ChatInterface(api_key=config['api_key'], base_url=config['api_base']).chat_manager(user_input=input("Your message:"), system_instruction=system_instruction)
-            print(response.choices[0].message.content)
+    ...
